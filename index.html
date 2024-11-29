@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hashmap Visualizer</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+<body>
+    <div id="hashmap-visualizer">
+        <!-- Left Side -->
+        <div id="controls-section">
+            <div id="buttons">
+                <button id="insert-btn" class="control-btn">Insert</button>
+                <button id="delete-btn" class="control-btn">Delete</button>
+                <button id="search-btn" class="control-btn">Search</button>
+                <button id="reset-btn" class="control-btn">Reset</button>
+            </div>
+            <div id="form-section">
+            </div>
+            <div id="footer">
+                <p>Built by Remi</p>
+                <a href="https://github.com" target="_blank">
+                    <img src="NeolithLogo.png" alt="GitHub Icon" id="github-icon">
+                </a>
+            </div>
+        </div>
+
+        <!-- Right Side -->
+        <div id="visualizer-section">
+            <div id="buckets">
+                <!-- Example bucket -->
+                <div class="bucket" id="bucket-1">
+                    <div class="bucket-item">JS</div>
+                    <div class="bucket-item">GR</div>
+                </div>
+                <div class="bucket" id="bucket-2"></div>
+                <div class="bucket" id="bucket-3"></div>
+                <div class="bucket" id="bucket-4"></div>
+                <div class="bucket" id="bucket-5"></div>
+                <div class="bucket" id="bucket-6"></div>
+                <div class="bucket" id="bucket-7"></div>
+                <div class="bucket" id="bucket-8"></div>
+                <div class="bucket" id="bucket-9"></div>
+                <div class="bucket" id="bucket-10"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
